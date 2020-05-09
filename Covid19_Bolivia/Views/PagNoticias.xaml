@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             IconImageSource="IcoNot1.png"
+             Title="Noticias"
+             BackgroundColor="White"
+             x:Class="Covid19_Bolivia.Views.PagNoticias">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="actualizar" />
+            <ListView  x:Name="LstPersons"  HorizontalOptions="FillAndExpand" 
+                    HasUnevenRows="true"
+                    RefreshControlColor="Black"
+                    SeparatorVisibility="None" BackgroundColor="Transparent">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Label Text="{Binding Titulo}" Grid.Row="0"/>
+                                <Label Text="{Binding Fecha}" Grid.Row="2"/>
+                                <Label Text="{Binding Contenido}" Grid.Row="3"/>
+                                <Image Source="{Binding Img.Source}" Grid.Row="1"/>
+                            </Grid>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

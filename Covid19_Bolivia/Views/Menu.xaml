@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Menu"
+             x:Class="Covid19_Bolivia.Views.Menu">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary"
+                     Priority="1"
+                     IconImageSource="usuario.png"
+                     Clicked="ToolbarItem_Clicked">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <!--Contenido del menu .............. -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--Usuario -->
+        <StackLayout HorizontalOptions="Center"
+                         Grid.Row="0">
+            <Image Source="usuario.png" Margin="0,10,0,10" HeightRequest="90"/>
+        </StackLayout>
+        <!--Contenido -->
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--1 fila  -->
+            <Image Source="IcoUsu1.png" Grid.Row="1" Grid.Column="0" Margin="5"/>
+            <StackLayout Grid.Row="1" Grid.Column="1" >
+                <Label Text="Iniciar sesión" TextColor="#300707" FontSize="17" VerticalOptions="CenterAndExpand"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BotonIniSec"/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+            <!--2 fila  -->
+            <Image Source="IcoNot1.png" Grid.Row="2" Grid.Column="0" Margin="5"/>
+            <StackLayout Grid.Row="2" Grid.Column="1">
+                <Label Text="Notificaciones" TextColor="#300707" FontSize="17" VerticalOptions="CenterAndExpand"/>
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="BotonNotificacion"/>
+                </StackLayout.GestureRecognizers>
+            </StackLayout>
+
+        </Grid>
+    </Grid>
+</ContentPage>
