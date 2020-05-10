@@ -542,3 +542,7 @@ C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\stamp\_ResolveLibraryPro
 C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\res\drawable\iconot1.png
 C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\res\drawable\icousu1.png
 C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\res\drawable\usuario.png
+C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\res\drawable\corona.png
+C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\res\layout\mapinfowindow.xml
+C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\res\layout\xamarinmapinfowindow.xml
+C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\android\src\crc6442819c79d5b224b8\CustomMapRenderer.java

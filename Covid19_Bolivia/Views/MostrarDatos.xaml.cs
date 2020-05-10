@@ -1,11 +1,11 @@
 ﻿using Covid19_Bolivia.Helper;
 using Covid19_Bolivia.Models;
+using Covid19_Bolivia.Renderers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
@@ -15,6 +15,10 @@ namespace Covid19_Bolivia.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MostrarDatos : ContentPage
     {
+        CustomMap map = new CustomMap
+        {
+            MapType = MapType.Street
+        };
         readonly FireBaseHelper firebaseHelper = new FireBaseHelper();
         private object item;
         public Circle circulo { get; set; }
@@ -30,7 +34,6 @@ namespace Covid19_Bolivia.Views
             
             this.item = item;
             Departamento dato = (Departamento)item;
-            Map map = new Map();
             Position position = new Position(dato.Latitud, dato.Longitud);
 
 

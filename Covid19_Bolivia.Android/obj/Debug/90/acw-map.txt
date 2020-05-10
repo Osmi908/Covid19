@@ -1,3 +1,6 @@
+Covid19_Bolivia.Droid.CustomMapRenderer, Covid19_Bolivia.Android;crc6442819c79d5b224b8.CustomMapRenderer
+Covid19_Bolivia.Droid.CustomMapRenderer;crc6442819c79d5b224b8.CustomMapRenderer
+covid19_bolivia.droid.CustomMapRenderer;crc6442819c79d5b224b8.CustomMapRenderer
 Covid19_Bolivia.Droid.MainActivity, Covid19_Bolivia.Android;crc6442819c79d5b224b8.MainActivity
 Covid19_Bolivia.Droid.MainActivity;crc6442819c79d5b224b8.MainActivity
 covid19_bolivia.droid.MainActivity;crc6442819c79d5b224b8.MainActivity

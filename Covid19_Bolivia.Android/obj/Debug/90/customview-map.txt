@@ -26,9 +26,15 @@ external-path;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\38\jl\r
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon.xml
 foreground;obj\Debug\90\res\mipmap-anydpi-v26\icon_round.xml
 FrameLayout;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\layout\bottomtablayout.xml
+ImageButton;obj\Debug\90\res\layout\mapinfowindow.xml
+ImageButton;obj\Debug\90\res\layout\xamarinmapinfowindow.xml
+ImageView;obj\Debug\90\res\layout\mapinfowindow.xml
+ImageView;obj\Debug\90\res\layout\xamarinmapinfowindow.xml
 item;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
 LinearLayout;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\layout\bottomtablayout.xml
+LinearLayout;obj\Debug\90\res\layout\mapinfowindow.xml
+LinearLayout;obj\Debug\90\res\layout\xamarinmapinfowindow.xml
 paths;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\38\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
@@ -39,6 +45,8 @@ set;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\anim\ex
 set;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\anim\exittoright.xml
 style;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
+TextView;obj\Debug\90\res\layout\mapinfowindow.xml
+TextView;obj\Debug\90\res\layout\xamarinmapinfowindow.xml
 translate;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\anim\enterfromleft.xml
 translate;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\anim\enterfromright.xml
 translate;C:\Covid19_Bolivia\Covid19_Bolivia.Android\obj\Debug\90\lp\40\jl\res\anim\exittoleft.xml

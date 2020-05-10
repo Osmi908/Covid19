@@ -1,4 +1,3 @@
-C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\Covid19_Bolivia.csprojAssemblyReference.cache
 C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\Covid19_Bolivia.csproj.CoreCompileInputs.cache
 C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\Covid19_Bolivia.AssemblyInfoInputs.cache
@@ -21,3 +20,4 @@ C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\Covid19_Bolivia.pdb
 C:\Covid19_Bolivia\Covid19_Bolivia\bin\Debug\netstandard2.0\ref\Covid19_Bolivia.dll
 C:\Covid19_Bolivia\Covid19_Bolivia\bin\Debug\netstandard2.0\Covid19_Bolivia.pdb
 C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Covid19_Bolivia\Covid19_Bolivia\obj\Debug\netstandard2.0\Covid19_Bolivia.csprojAssemblyReference.cache
